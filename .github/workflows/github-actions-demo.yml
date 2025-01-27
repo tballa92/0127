@@ -1,0 +1,12 @@
+on: [push] 
+name: GibHub Actions Demo
+run-name: GiHub Actions teszt
+jobs:
+  Demo-GitHub-Actions:
+    runs-on: []
+    steps: 
+      - run: echo "Step 1 (clean)"
+      - run: echo "Step 2 (compile)"
+      - run: echo "Step 3 (test)"
+      - run: echo "Step 4 (jar)"
+      - run: echo "Step 5 (execute)"
