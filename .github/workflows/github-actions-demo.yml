@@ -3,7 +3,7 @@ name: GibHub Actions Demo
 run-name: GiHub Actions teszt
 jobs:
   Demo-GitHub-Actions:
-    runs-on: "users"
+    runs-on: ubuntu-latest
     steps: 
       - run: echo "Step 1 (clean)"
       - run: echo "Step 2 (compile)"
